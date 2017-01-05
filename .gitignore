@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by .ignore support plugin (hsz.mobi)
 ### Java template
 *.class
@@ -5,6 +6,10 @@
 # BlueJ files
 *.ctxt
 
+=======
+*.class
+
+>>>>>>> 76e60f56cafceb0ff5c88e4a358e400eaf2f81df
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
@@ -19,5 +24,4 @@ hs_err_pid*
 .idea/
 build.gradle
 serenity.based.iml
-
 target/
