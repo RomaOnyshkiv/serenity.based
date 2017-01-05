@@ -34,6 +34,8 @@ public class WhenBrowsingProductCategories {
 
     @Test
     public void shouldBeAbleToNavigateToElectronicsCategory(){
+
+        //        Given
         mark.isOnTheHomePage();
 
         //        When
