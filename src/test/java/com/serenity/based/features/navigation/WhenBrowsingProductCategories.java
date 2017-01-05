@@ -19,7 +19,7 @@ public class WhenBrowsingProductCategories {
     WebDriver browser;
 
     @Test
-    public void shouldBeAbleToNavigateToMotorsategory(){
+    public void shouldBeAbleToNavigateToMotorsCategory(){
 
 
         //        Given
@@ -30,5 +30,16 @@ public class WhenBrowsingProductCategories {
 
         //        Then
         mark.shouldSeePageTitleContaining("eBay Motors | eBay");
+    }
+
+    @Test
+    public void shouldBeAbleToNavigateToElectronicsCategory(){
+        mark.isOnTheHomePage();
+
+        //        When
+        mark.navigatestToTheCategory(Category.Electronics);
+
+        //        Then
+        mark.shouldSeePageTitleContaining("Buy Electronics Online - Phones, TVs, Computers, Tablets, Video Games | eBay");
     }
 }
